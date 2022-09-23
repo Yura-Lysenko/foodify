@@ -6,7 +6,7 @@ type Props = {
   dishes: DishType[],
 }
 export const DishesList: FC<Props> = (props) => {
-  const { dishes } = props
+  const { dishes } = props;
   
   return(
     <div className="container">

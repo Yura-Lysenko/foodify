@@ -35,20 +35,20 @@ export const Main = () => {
   return (
     <div className="container">
       <div className="random__dish">
-        <Dish dish={dish}/>
+        <Dish dish={dish} />
         <div className="button__container">
-        <button
-          className="dish__button"
-          onClick={getRandomDish}
-        >
-          Skip
-        </button>
-        <button
-          className="dish__button"
-          onClick={onLike}
-        >
-          Like
-        </button>
+          <button
+            className="dish__button"
+            onClick={getRandomDish}
+          >
+            Skip
+          </button>
+          <button
+            className="dish__button"
+            onClick={onLike}
+          >
+            Like
+          </button>
         </div>
       </div>
     </div> 

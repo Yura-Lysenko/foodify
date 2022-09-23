@@ -5,10 +5,11 @@ type Props = {
   country: string,
   category: string,
 }
-export const Description: FC<Props> = ({recipe, country, category}) => {
+export const Description: FC<Props> = (props) => {
+  const {recipe, country, category} = props;
 
   return (
-    <div className="description__block">
+    <div>
       <h4>Food category: {category}</h4>
       <h4>Origin: {country}</h4>
       <p><h4>How to cook:</h4>{recipe}</p>

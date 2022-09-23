@@ -6,7 +6,8 @@ type Props = {
   setActive: (active: boolean) => void
 }
 
-export const Modal: FC<Props> =({active, setActive}) => {
+export const Modal: FC<Props> =(props) => {
+  const {active, setActive} = props;
 
   return (
     <div 
@@ -14,7 +15,7 @@ export const Modal: FC<Props> =({active, setActive}) => {
       onClick={()=>setActive(false)}
     >
       <div className="modal__content" onClick={e => e.stopPropagation()}>
-        <DishForm active={active} setActive={setActive}/>
+        <DishForm setActive={setActive}/>
       </div>
     </div>
   )

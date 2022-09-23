@@ -7,8 +7,8 @@ type Props = {
   dish: DishType
 }
 export const Dish: FC<Props> = (props) => {
-const { dish } = props
-
+  const { dish } = props;
+  
   return (
     <div>
       <div className="dish__container">

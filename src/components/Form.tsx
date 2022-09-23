@@ -2,13 +2,12 @@ import { useState, FormEvent, FC } from "react"
 import { DishType } from "../types/dishType"
 import { setLIkes } from "../utils/Like"
 
-
 type Props = {
-  active: boolean,
   setActive: (active: boolean) => void
 }
 
-export const DishForm: FC<Props> =({active, setActive}) => {
+export const DishForm: FC<Props> =(props) => {
+  const {setActive} = props;
 
   const [title, setTitle] = useState('')
   const [description, setDescription] = useState('')

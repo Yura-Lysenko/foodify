@@ -4,8 +4,9 @@ import { Modal } from "../components/Modal"
 import { getLikes } from "../utils/Like"
 
 export const Favourites = () => {
-  const likes = getLikes()
   const [isActive, setIsActive] = useState(false)
+
+  const likedDish = getLikes()
 
   return (
     <div>
@@ -16,9 +17,9 @@ export const Favourites = () => {
       >
         Add new dish
       </button>
-      </div>
+    </div>
       <Modal  active={isActive} setActive={setIsActive} />
-      <DishesList dishes={likes} />
+      <DishesList dishes={likedDish} />
     </div>
   )
 }

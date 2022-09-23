@@ -2,6 +2,7 @@
   padding-top: 20px;
   background-color: #f8f8f8;
 }
+
 .nav {
   display: flex;
   justify-content: center;
@@ -35,7 +36,6 @@
   width: 390px;
   margin: 0 auto;
   height: 100vh;
-
 }
 
 .dish__container {

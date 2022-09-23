@@ -11,9 +11,11 @@ export const getLikes = () => {
 }
 
 export const setLIkes = (dish: DishType) => {
-  const likesNext: DishType[] = getLikes()
+  const likedDishes: DishType[] = getLikes()
  
-  const filtered = likesNext.filter(dish1 => dish1.id !== dish.id)
-  filtered.push(dish)
-  localStorage.setItem('likes', JSON.stringify(filtered))
+  const filteredDishesById = likedDishes.filter(dish1 => dish1.id !== dish.id)
+
+  filteredDishesById.push(dish)
+
+  localStorage.setItem('likes', JSON.stringify(filteredDishesById))
 }
