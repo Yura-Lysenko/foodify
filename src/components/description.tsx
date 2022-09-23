@@ -8,7 +8,7 @@ type Props = {
 export const Description: FC<Props> = ({recipe, country, category}) => {
 
   return (
-    <div>
+    <div className="description__block">
       <h4>Food category: {category}</h4>
       <h4>Origin: {country}</h4>
       <p><h4>How to cook:</h4>{recipe}</p>

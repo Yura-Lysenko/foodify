@@ -35,7 +35,6 @@
   width: 390px;
   margin: 0 auto;
   height: 100vh;
-  height: 600px;
 
 }
 
@@ -44,8 +43,7 @@
   width: 390px;
   margin: 0 auto 30px;
   background: #dedcf4;
-  height: 600px;
-
+  border-bottom: 15px solid #dedcf4;
 }
 
 .button__container {
