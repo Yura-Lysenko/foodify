@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/foodify/static/css/main.d1039a3e.css",
+    "main.css": "/foodify/static/css/main.a33886e2.css",
     "main.js": "/foodify/static/js/main.b6649efc.js",
     "index.html": "/foodify/index.html",
-    "main.d1039a3e.css.map": "/foodify/static/css/main.d1039a3e.css.map",
+    "main.a33886e2.css.map": "/foodify/static/css/main.a33886e2.css.map",
     "main.b6649efc.js.map": "/foodify/static/js/main.b6649efc.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1039a3e.css",
+    "static/css/main.a33886e2.css",
     "static/js/main.b6649efc.js"
   ]
 }
