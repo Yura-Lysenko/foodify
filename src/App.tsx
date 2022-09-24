@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { FormEvent, useState } from 'react';
-import './App.css';
+import './App.scss';
 import { Main } from './Pages/Main';
 import { Favourites } from './Pages/Favourite';
 import { Navigation } from './components/Navigation';

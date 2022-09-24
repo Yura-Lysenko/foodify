@@ -1,0 +1,47 @@
+.add__dish {
+  position: absolute;
+  top: 1px;
+  right: 30px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+
+  @include onMobile {
+    position: static;;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  &-button {
+    width: 250px;
+    padding: 18px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+    background: rgba(3, 128, 158);
+    border: transparent;
+    cursor: pointer;
+
+    @include onMobile {
+      border-radius: 0;
+      width: 100%;
+      border: 1px solid;
+    }
+
+    @include onTablet {
+      border-radius: 0;
+      width: 200px;
+    }
+
+    &:hover {
+      background-color: #FFEC7A;
+      color: rgb(23, 22, 22);
+      transition: 0.3s;
+    }
+  }
+}

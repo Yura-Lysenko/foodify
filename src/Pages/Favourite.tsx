@@ -10,7 +10,7 @@ export const Favourites = () => {
 
   return (
     <div>
-      <div className="add__dish-block">
+      <div className="add__dish">
       <button 
         className="add__dish-button"
         onClick={() => setIsActive(true)}

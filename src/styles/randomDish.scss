@@ -1,0 +1,31 @@
+.random-dish {
+  width: 390px;
+  margin: 0 auto;
+  height: 100vh;
+
+  @include onMobile {
+    width: 100vw;
+    max-width: 390px;
+  }
+
+  @include onTablet {
+    max-width: 350px;
+    width: 40vw;
+  }
+
+  @include onSmallDesk {
+    width: 100vw;
+    max-width: 290px;
+  }
+
+  &__button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+    @include onMobile {
+      gap: 1px;
+      padding-bottom: 10px;
+    }
+  }
+}

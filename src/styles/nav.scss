@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 60px;
+  align-items: center;
+  background: rgba(3, 128, 158);
+
+  @include onTablet {
+    gap: 1px;
+  }
+
+  &__link {
+    padding: 18px;
+    width: 150px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+
+    @include onMobile {
+      padding: 18px 10px;
+    }
+
+    @include onTablet {
+      padding: 18px 0px;
+    }
+
+    &:hover {
+      background-color: #FFEC7A;
+      color: rgb(23, 22, 22);
+      transition: 0.3s;
+    }
+  }
+}

@@ -34,9 +34,9 @@ export const Main = () => {
 
   return (
     <div className="container">
-      <div className="random__dish">
+      <div className="random-dish">
         <Dish dish={dish} />
-        <div className="button__container">
+        <div className="random-dish__button-container">
           <button
             className="dish__button"
             onClick={getRandomDish}

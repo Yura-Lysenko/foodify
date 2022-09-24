@@ -8,9 +8,9 @@ type Props = {
 }
 export const Dish: FC<Props> = (props) => {
   const { dish } = props;
-  
+
   return (
-    <div>
+    <div className="dish">
       <div className="dish__container">
         <img 
           className="dish__img" 
